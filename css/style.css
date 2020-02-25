@@ -1,0 +1,21 @@
+button[data-action="start"] {
+  margin-right: 20px;
+}
+button[data-action="start"],
+button[data-action="stop"] {
+  padding: 20px 40px;
+  background-color: aliceblue;
+  color: saddlebrown;
+  font-weight: bold;
+  font-size: 20px;
+  transition: background-color 0.7s cubic-bezier(1, 0, 0, 1);
+}
+button[data-action="start"]:hover,
+button[data-action="stop"]:hover {
+  background-color: seashell;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  transform: translate(0, 200px);
+}
