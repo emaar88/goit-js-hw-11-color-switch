@@ -24,7 +24,6 @@ const changeColors = {
       this.isActive = true;
       this.timerId = setInterval(() => {
         const colorsChange = randomIntegerFromInterval(0, colors.length - 1);
-        console.log(colorsChange);
         body.style.backgroundColor = colors[colorsChange];
       }, 1000);
     }
